@@ -212,9 +212,9 @@ function transaction(){
 	location.href="Transaction"
 }
 </script>
-<h2>YK은행</h2>
 </head>
 <body>
+<h2>YK은행</h2>
 <%if(session.getAttribute("login")==null){%>
 	<button id="btn" onclick="gologin()">로그인</button>	
 <%} else{%>
