@@ -17,7 +17,7 @@ public class BankService {
 		}
 		return result;
 	}
-
+//융기
 	public boolean regiserCustomer(Customerdto dto) {
 		boolean result = dao.createCustomer(dto);
 		return result;
