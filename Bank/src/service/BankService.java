@@ -23,8 +23,4 @@ public class BankService {
 		return result;
 	}
 	
-	public boolean add(){
-		return true;
-	}
-	
 }
